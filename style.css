@@ -1,0 +1,83 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
+
+.Section1 {
+    background-color: #1f2937;
+}
+
+.Header {
+    padding: 24px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+}
+
+.Logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    display: flex;
+    margin: 0;
+}
+
+.Links {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+.Hero {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0 64px 0;
+    margin: 0;
+    align-items: center;
+    gap: 300px;
+    max-width: 1400px; 
+}
+
+.Herotext {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 20px; */
+    padding: 32px 0;
+}
+
+.Herotext h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.Herotext p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Herotext button {
+    border: 0;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Heroimg {
+    height: 300px;
+    padding: 32px 0;
+}
